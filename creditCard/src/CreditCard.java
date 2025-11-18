@@ -23,6 +23,10 @@ public class CreditCard {
     public int getLimit() {return limit;}
     public double getBalance() { return balance;}
 
+    public void setLimit(int limit) {
+        this.limit = limit;
+    }
+
     public boolean charge(double price) {
         if (price + balance > limit) {
             return false;
@@ -32,6 +36,9 @@ public class CreditCard {
     }
 
     public void makePayment(double amount) {
+        if (amount <= 0) {
+            return;
+        }
         balance -= amount;
     }
 

@@ -42,12 +42,18 @@ public class CreditCard {
         balance -= amount;
     }
 
-    public static void printSumary(CreditCard card) {
-        System.out.println("Customer = " + card.customer);
-        System.out.println("Bank = " + card.bank);
-        System.out.println("Account = " + card.account);
-        System.out.println("Balance = " + card.balance);
-        System.out.println("Limit = " + card.limit);
+//    public void printSummary(CreditCard card) {
+//        System.out.println("Customer = " + card.customer);
+//        System.out.println("Bank = " + card.bank);
+//        System.out.println("Account = " + card.account);
+//        System.out.println("Balance = " + card.balance);
+//        System.out.println("Limit = " + card.limit);
+//    }
+
+    @Override
+    public String toString() {
+        return "Customer = " + customer + "\nBank = " + bank + "\nAccount = " + account + "\nBalance = " + balance +
+                "\nLimit = " + limit;
     }
 
 }

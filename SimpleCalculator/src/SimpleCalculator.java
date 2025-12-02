@@ -70,7 +70,6 @@ public class SimpleCalculator {
         }
 
         sc.close();
-   
     }
 
     private static boolean isNumber(String input) {

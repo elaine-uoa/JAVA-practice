@@ -1,0 +1,12 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+target/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+

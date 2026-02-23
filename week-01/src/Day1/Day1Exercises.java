@@ -1,3 +1,4 @@
+package Day1;
 import java.util.Random;
 
 public class Day1Exercises {

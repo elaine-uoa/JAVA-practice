@@ -1,4 +1,4 @@
-package Day5;
+package Day5Inheritance;
 
 public class Main {
 

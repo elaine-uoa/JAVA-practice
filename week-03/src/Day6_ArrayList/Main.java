@@ -8,6 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // arraylist = a resizeable array that stores objects (autoboxing).
+        // arrays are fixed in size, but ArrayLists can change.
+
 //        ArrayList<String> fruits = new ArrayList<>();
 //
 //        fruits.add("Apple");
@@ -20,7 +23,7 @@ public class Main {
 //
 //     System.out.println(fruits.get(0));
 //        System.out.println(fruits.size());
-//        Collections.sort(fruits);
+//        Collections.sort(fruits);  collections framework
 //
 //        System.out.println(fruits);
 

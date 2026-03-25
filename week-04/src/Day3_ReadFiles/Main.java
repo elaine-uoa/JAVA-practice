@@ -14,7 +14,7 @@ public class Main {
 
         String filePath = "/Users/elaine/Desktop/test.txt";
 
-        try(BufferedReader  br = new BufferedReader(new FileReader(filePath));){
+        try(BufferedReader br = new BufferedReader(new FileReader(filePath));){
             String line;
             while((line = br.readLine()) != null){
                 System.out.println(line);
